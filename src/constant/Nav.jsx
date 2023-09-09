@@ -31,16 +31,16 @@ function Nav() {
       <div className="w-full flex md:hidden">
         <ul className="flex w-full justify-between md:hidden font-oswald font-thin">
           <li>
-            <a href="/products">All Products</a>
+            <a href="/react-vite/products">All Products</a>
           </li>
           <li>
-            <a href="/sofa">Sofa</a>
+            <a href="/react-vite/sofa">Sofa</a>
           </li>
           <li>
-            <a href="/chair">Chair</a>
+            <a href="/react-vite/chair">Chair</a>
           </li>
           <li>
-            <a href="/table">Table</a>
+            <a href="/react-vite/table">Table</a>
           </li>
         </ul>
       </div>
