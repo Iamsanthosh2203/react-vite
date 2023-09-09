@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.jpg";
 
 function Nav() {
   return (
     <nav className="block md:flex justify-center md:justify-between items-center mb-10">
       <div className="flex justify-center gap-6 items-center">
-        <a href="/">
-          <img width={"150px"} src="src/assets/logo.jpg" alt="logo" />
-        </a>
+        <Link href="/react-vite/">
+          <img width={"150px"} src={logo} alt="logo" />
+        </Link>
         <ul className="hidden md:flex gap-12 font-oswald font-thin">
           <li>
             <Link to="/react-vite/products">All Products</Link>

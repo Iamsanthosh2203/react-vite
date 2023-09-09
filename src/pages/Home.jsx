@@ -29,7 +29,8 @@ function Main() {
   return (
     <section
       style={{
-        backgroundImage: "url(src/assets/sofa-bg-banner.jpg)",
+        backgroundImage:
+          "url(https://raw.githubusercontent.com/Iamsanthosh2203/react-vite/main/src/assets/sofa-bg-banner.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "100% 100%",
         backgroundRepeat: "no-repeat",
@@ -59,7 +60,11 @@ function Main() {
 function Section1() {
   return (
     <section className="flex md:flex-row flex-col gap-5 mb-5">
-      <img src="src/assets/chair.jpg" alt="" data-aos="fade-right" />
+      <img
+        src="https://raw.githubusercontent.com/Iamsanthosh2203/react-vite/main/src/assets/chair.jpg"
+        alt=""
+        data-aos="fade-right"
+      />
 
       <div
         className="w-full bg-black p-8 md:p-28 text-white flex flex-col"
@@ -94,7 +99,7 @@ function Section2() {
       </div>
 
       <img
-        src="src/assets/wooden-chair-collections.jpg"
+        src="https://raw.githubusercontent.com/Iamsanthosh2203/react-vite/main/src/assets/wooden-chair-collections.jpg"
         alt=""
         data-aos="fade-right"
       />
