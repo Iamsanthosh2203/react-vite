@@ -35,7 +35,7 @@ function Main() {
         backgroundPosition: "100% 100%",
         backgroundRepeat: "no-repeat",
       }}
-      className="h-[55vh] p-10 md:p-32 mb-7"
+      className="min-[h-[55vh]]: p-10 md:p-32 mb-7"
       data-aos="fade-up"
     >
       <h1
@@ -67,14 +67,14 @@ function Section1() {
       />
 
       <div
-        className="w-full bg-black p-8 md:p-28 text-white flex flex-col"
+        className="w-full bg-black p-8 md:p-28 lg:p-14 text-white flex flex-col"
         data-aos="fade-left"
       >
         <h2 className="text-bold font-oswald text-5xl">Chair Collection !</h2>
 
         <p className="text-lg mt-5">Launch Offer 15% off!</p>
 
-        <button className="bg-white text-black border px-8 py-4 mt-8 hover:bg-black hover:text-white duration-300 w-full text-center md:w-[40%]">
+        <button className="bg-white text-black border px-8 py-4 mt-8 hover:bg-black hover:text-white duration-300 w-full text-center md:w-[40%] lg:w-[60%]">
           View Collections
         </button>
       </div>
@@ -86,14 +86,14 @@ function Section2() {
   return (
     <section className="flex md:flex-row flex-col-reverse gap-5 mb-5">
       <div
-        className="w-full bg-black p-8 md:p-28 text-white flex flex-col"
+        className="w-full bg-black p-8 md:p-28 lg:p-14 text-white flex flex-col"
         data-aos="fade-left"
       >
         <h2 className="text-bold font-oswald text-5xl">Modern Collection !</h2>
 
         <p className="text-lg mt-5">New Season Stock</p>
 
-        <button className="bg-white text-black border px-8 py-4 mt-8 hover:bg-black hover:text-white duration-300 w-full text-center md:w-[40%]">
+        <button className="bg-white text-black border px-8 py-4 mt-8 hover:bg-black hover:text-white duration-300 w-full text-center md:w-[40%] lg:w-[60%]">
           View Collections
         </button>
       </div>
@@ -157,7 +157,7 @@ function Section4() {
     >
       <h2 className="text-5xl font-bold text-amber-800">Sale!</h2>
       <p>10% Off On All Products!</p>
-      <button className="bg-white text-black border px-8 py-4 mt-8 hover:bg-black hover:text-white duration-300 w-full md:w-[20%]">
+      <button className="bg-white text-black border px-8 py-4 mt-8 hover:bg-black hover:text-white duration-300 w-full md:w-[40%] xl:w-[20%]">
         View Collections
       </button>
     </section>

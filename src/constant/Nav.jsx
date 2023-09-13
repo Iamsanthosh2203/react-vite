@@ -6,20 +6,23 @@ function Nav() {
     <nav className="block md:flex justify-center md:justify-between items-center mb-10">
       <div className="flex justify-center gap-6 items-center">
         <Link href="/react-vite/">
-          <img width={"150px"} src={logo} alt="logo" />
+          <img width={"200px"} src={logo} alt="logo" />
         </Link>
-        <ul className="hidden md:flex gap-12 font-oswald font-thin">
+        <ul className="hidden md:flex gap-12 text-xl font-oswald font-thin">
           <li>
             <Link to="/react-vite/products">All Products</Link>
           </li>
           <li>
-            <Link to="/react-vite/sofa">Sofa</Link>
+            <Link to="/react-vite/sofa">Home Decors</Link>
           </li>
           <li>
-            <Link to="/react-vite/chair">Chair</Link>
+            <Link to="/react-vite/chair">Living Room</Link>
           </li>
           <li>
-            <Link to="/react-vite/table">Table</Link>
+            <Link to="/react-vite/table">Bed Room</Link>
+          </li>
+          <li>
+            <Link to="/react-vite/table">Dining And Kitchen</Link>
           </li>
         </ul>
       </div>

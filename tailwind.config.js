@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         oswald: "Oswald",
+        montserrat: "Montserrat",
       },
       colors: {
         footer: "rgb(58, 58, 58)",

@@ -9,6 +9,8 @@ import Chair from "./pages/Chair.jsx";
 import Products from "./pages/Products.jsx";
 import Sofa from "./pages/Sofa.jsx";
 import Table from "./pages/Table.jsx";
+import Description from "./pages/Description.jsx";
+import Purchase from "./pages/Purchase.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
       {
         path: "/react-vite/table",
         element: <Table />,
+      },
+      {
+        path: "/react-vite/description/:productId",
+        element: <Description />,
+      },
+      {
+        path: "/react-vite/purchase",
+        element: <Purchase />,
       },
     ],
   },
