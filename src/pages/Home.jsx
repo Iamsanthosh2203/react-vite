@@ -5,6 +5,7 @@ import Footer from "../constant/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
@@ -177,7 +178,8 @@ function Products() {
       <div className="my-12 flex justify-center flex-wrap">
         <div className="flex flex-wrap justify-center gap-12">
           {firstFour.map((product) => (
-            <div
+            <Link
+              to={`/react-vite/description/${product.id}`}
               className="mx-8 h-80 w-72 md:w-80 hover:cursor-pointer"
               key={product.id}
               data-aos="fade-right"
@@ -198,7 +200,7 @@ function Products() {
                 <p className="font-thin">{product.title}</p>
                 <p className="font-bold">${product.price.toFixed(2)}</p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
