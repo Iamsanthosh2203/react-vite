@@ -35,7 +35,7 @@ function Description() {
 
               <Link
                 to={`/react-vite/purchase/`}
-                className="my-4 px-4 py-2 bg-black text-white hover:text-black hover:bg-red-400 duration-200 w-1/2"
+                className=" my-4 px-4 py-2 bg-black text-white hover:text-black hover:bg-red-400 duration-200 w-full text-center md:w-1/2"
               >
                 Purchase Product
               </Link>
