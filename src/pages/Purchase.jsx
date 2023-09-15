@@ -6,7 +6,7 @@ function Purchase() {
       <form className="font-montserrat">
         <h1 className="text-4xl font-bold mb-4">Enquiry Form</h1>
 
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row justify-between">
           <div className="flex flex-col mb-4">
             <label htmlFor="fname">First Name</label>
             <input
@@ -41,13 +41,13 @@ function Purchase() {
           <textarea
             name=""
             id=""
-            cols="30"
-            rows="10"
+            cols="10"
+            rows="4"
             className="border-2 rounded-md"
           ></textarea>
         </div>
 
-        <div className="flex gap-6 justify-between">
+        <div className="flex flex-col md:flex-row gap-6 justify-between">
           <div className="flex flex-col mb-4">
             <label htmlFor="country">Country / Region</label>
             <input
@@ -82,8 +82,8 @@ function Purchase() {
           </div>
         </div>
 
-        <div className="flex gap-6 mb-4 items-center">
-          <div className="flex flex-col mb-4">
+        <div className="flex flex-col md:flex-row gap-6 mb-4 items-start md:items-center">
+          <div className="flex flex-col mb-4 w-full md:w-auto">
             <label htmlFor="enquiry">Enquiry</label>
             <select
               name=""
@@ -98,7 +98,7 @@ function Purchase() {
             </select>
           </div>
 
-          <div className="flex flex-col mb-4">
+          <div className="flex flex-col mb-4 w-full md:w-auto">
             <label htmlFor="product">Product Name</label>
             <input
               className="p-2 rounded-md mt-2 border-2"
