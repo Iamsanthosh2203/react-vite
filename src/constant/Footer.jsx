@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   useEffect(() => {
@@ -15,7 +16,9 @@ function Footer() {
         <h4 className="text-center text-4xl">Have Questions?</h4>
 
         <div className="flex justify-center">
-          <button className="bg-red-400 py-3 px-12">Contact Us</button>
+          <Link to="/react-vite/contact" className="bg-red-400 py-3 px-12">
+            Contact Us
+          </Link>
         </div>
       </div>
 

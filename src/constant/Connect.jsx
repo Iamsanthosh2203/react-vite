@@ -18,9 +18,9 @@ function Connect() {
       }}
       className="flex flex-col justify-center items-center bg-red-500 p-12 md:p-36 gap-8"
     >
-      <h3 className="text-2xl text-white" data-aos="fade-up">
+      <h2 className="text-2xl text-white" data-aos="fade-up">
         Connect with us!
-      </h3>
+      </h2>
 
       <div
         className="flex flex-wrap justify-center gap-5 text-4xl text-white"
