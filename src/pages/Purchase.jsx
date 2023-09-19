@@ -3,7 +3,11 @@ import Footer from "../constant/Footer";
 function Purchase() {
   return (
     <>
-      <form className="font-montserrat">
+      <form
+        className="font-montserrat"
+        action="https://formspree.io/f/moqolkeo"
+        method="POST"
+      >
         <h1 className="text-4xl font-bold mb-4">Enquiry Form</h1>
 
         <div className="flex flex-col md:flex-row justify-between">
@@ -124,7 +128,10 @@ function Purchase() {
         </div>
 
         <div className="flex justify-center">
-          <button className="px-4 py-2 bg-black text-white hover:text-black mt-4 hover:bg-red-400 duration-150 w-[30%]">
+          <button
+            type="submit"
+            className="px-4 py-2 bg-black text-white hover:text-black mt-4 hover:bg-red-400 duration-150 w-[30%]"
+          >
             Submit
           </button>
         </div>
