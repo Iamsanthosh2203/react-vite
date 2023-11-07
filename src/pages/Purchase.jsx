@@ -17,6 +17,8 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="text"
               id="fname"
+              name="fname"
+              required
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -25,6 +27,8 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="text"
               id="sname"
+              name="sname"
+              required
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -35,6 +39,7 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="text"
               id="compname"
+              name="compname"
             />
           </div>
         </div>
@@ -43,8 +48,8 @@ function Purchase() {
           <label htmlFor="address">Street Address</label>
 
           <textarea
-            name=""
-            id=""
+            name="address"
+            id="address"
             cols="10"
             rows="4"
             className="border-2 rounded-md"
@@ -58,6 +63,8 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="text"
               id="country"
+              name="country"
+              required
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -66,6 +73,8 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="text"
               id="state"
+              name="state"
+              required
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -74,6 +83,8 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="email"
               id="email"
+              name="email"
+              required
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -82,6 +93,8 @@ function Purchase() {
               className="px-2 py-2 border-2 rounded-md"
               type="number"
               id="phone"
+              name="phone"
+              required
             />
           </div>
         </div>
@@ -90,15 +103,15 @@ function Purchase() {
           <div className="flex flex-col mb-4 w-full md:w-auto">
             <label htmlFor="enquiry">Enquiry</label>
             <select
-              name=""
+              name="enquiry"
               id="enquiry"
               className="p-2 rounded-md mt-2 border-2"
             >
-              <option value="">All Products</option>
-              <option value="">Home Decors</option>
-              <option value="">Living Room</option>
-              <option value="">Bed Room</option>
-              <option value="">Dining and Kitchen</option>
+              <option value="all">All Products</option>
+              <option value="home">Home Decors</option>
+              <option value="living">Living Room</option>
+              <option value="bed">Bed Room</option>
+              <option value="dining">Dining and Kitchen</option>
             </select>
           </div>
 
@@ -108,6 +121,8 @@ function Purchase() {
               className="p-2 rounded-md mt-2 border-2"
               type="text"
               id="product"
+              name="product"
+              required
             />
           </div>
         </div>
@@ -124,6 +139,7 @@ function Purchase() {
             id="orderNotes"
             cols="30"
             rows="10"
+            name="orderNotes"
           ></textarea>
         </div>
 
